@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hdhunter.interpolator.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/interpolatorGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/AccelerateDecelerateInterpolator"
+                    style="@style/aaabbcc"
+                    android:checked="true"
+                    android:text="AccelerateDecelerate" />
+
+                <RadioButton
+                    android:id="@+id/AccelerateInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="AccelerateInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/AnticipateInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="AnticipateInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/AnticipateOvershootInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="AnticipateOvershoot" />
+
+                <RadioButton
+                    android:id="@+id/BounceInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="BounceInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/CycleInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="CycleInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/DecelerateInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="DecelerateInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/LinearInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="LinearInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/OvershootInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="OvershootInterpolator" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@android:color/black" />
+                <!--v4-->
+                <RadioButton
+                    android:id="@+id/FastOutLinearInInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="FastOutLinearInInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/FastOutSlowInInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="FastOutSlowInInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/LinearOutSlowInInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="LinearOutSlowInInterpolator" />
+                <!--other-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/BackInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="BackInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/BounceInterpolator1"
+                    style="@style/aaabbcc"
+                    android:text="BounceInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/CircInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="CircInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/CubicInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="CubicInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/ElasticInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="ElasticInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/ExpoInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="ExpoInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/QuadInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="QuadInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/QuartInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="QuartInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/QuintInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="QuintInterpolator" />
+
+                <RadioButton
+                    android:id="@+id/SineInterpolator"
+                    style="@style/aaabbcc"
+                    android:text="SineInterpolator" />
+
+            </RadioGroup>
+
+            <com.hdhunter.interpolator.CurveView
+                android:id="@+id/curve"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
