@@ -29,11 +29,11 @@ all interpolator i know,i collector.
 and a view can draw xy.
 
 ###Options.
-![options](../dic/device-2017-09-21-152121.png)
+![options](https://github.com/HDHunter/Interpolatars/blob/master/dic/device-2017-09-21-152121.png)
 
 
 ###View,xy.
-![bitmapView](../dic/device-2017-09-21-152121.png)
+![bitmapView](https://github.com/HDHunter/Interpolatars/blob/master/dic/device-2017-09-21-152202.png)
 
 
 
